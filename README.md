@@ -19,22 +19,16 @@ O **Sistema de Agendamento de Salas** é uma solução web desenvolvida para fac
 
 1. Clone este repositório para o seu ambiente de desenvolvimento local:
    ```bash
-   git clone https://github.com/seuusuario/sistema-agendamento-salas.git
+   git clone https://github.com/RGafanha/sistema-agendamento-salas.git
 
 2. Importe o arquivo database.sql para o seu sistema de gerenciamento de banco de dados MySQL para criar as tabelas necessárias.
 3. Adapte o arquivo de configuração de conexão com o banco de dados (db.php ou similar) com as suas credenciais do MySQL.
 
 ## Configuração do Banco de Dados
-Antes de iniciar o sistema, é necessário configurar a conexão com o banco de dados. Abra o arquivo de configuração do banco de dados e atualize as seguintes linhas com as suas informações:
+Antes de iniciar o sistema, é necessário configurar a conexão com o banco de dados. Verifique todos arquivos PHP que utiliza a conexão com o banco e altere conforme sua necessidade.
 
-PHP
+## Contribuições são sempre bem-vindas! 
+Se você tem alguma ideia para melhorar o sistema ou corrigir um problema, sinta-se à vontade para criar um pull request ou abrir uma issue.
 
-$servername = "localhost"; // Endereço do servidor do banco de dados
-$username = "seu_usuario"; // Usuário do banco de dados
-$password = "sua_senha"; // Senha do banco de dados
-$database = "nome_do_seu_banco"; // Nome do banco de dados
-
-Contribuições são sempre bem-vindas! Se você tem alguma ideia para melhorar o sistema ou corrigir um problema, sinta-se à vontade para criar um pull request ou abrir uma issue.
-
-Créditos
+## Créditos
 Desenvolvido por Pablo Gafanha - Entre em contato pelo e-mail: devopsgafanha@gmail.com
