@@ -21,8 +21,7 @@ O **Sistema de Agendamento de Salas** é uma solução web desenvolvida para fac
    ```bash
    git clone https://github.com/RGafanha/sistema-agendamento-salas.git
 
-2. Importe o arquivo database.sql para o seu sistema de gerenciamento de banco de dados MySQL para criar as tabelas necessárias.
-3. Adapte o arquivo de configuração de conexão com o banco de dados (db.php ou similar) com as suas credenciais do MySQL.
+2. Importe o arquivo agendadados.sql para o seu sistema de gerenciamento de banco de dados MySQL para criar as tabelas necessárias.
 
 ## Configuração do Banco de Dados
 Antes de iniciar o sistema, é necessário configurar a conexão com o banco de dados. Verifique todos arquivos PHP que utiliza a conexão com o banco e altere conforme sua necessidade.
